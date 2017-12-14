@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ripple_demo.MainActivity">
+
+    <Button
+        android:background="?android:attr/selectableItemBackground"
+        android:text="ripple—波纹-有边界"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:text="ripple—波纹-无边界"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:background="@drawable/ripple"
+        android:text="ripple—自定义背景-波纹-有边界"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:targetApi="lollipop" />
+
+
+
+</LinearLayout>

@@ -1,1 +1,1 @@
-include ':app', ':myloadingbar'
+include ':app', ':myloadingbar', ':share_animation', ':ripple_demo', ':circular_reveal_demo'
