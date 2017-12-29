@@ -37,6 +37,11 @@
         android:text="PorterDuffColorFilter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:onClick="Open_Text"
+        android:text="Open_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </LinearLayout>
 
 

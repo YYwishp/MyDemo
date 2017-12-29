@@ -4,7 +4,6 @@
 
     <application
         android:allowBackup="true"
-        android:hardwareAccelerated="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -19,6 +18,8 @@
         <activity android:name=".ColorMatrixActivity">
         </activity>
         <activity android:name=".Open_DuffColorFilterActivity">
+        </activity>
+        <activity android:name=".View.ShowTextActivity">
         </activity>
     </application>
 </manifest>

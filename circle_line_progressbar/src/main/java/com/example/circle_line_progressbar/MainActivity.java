@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.circle_line_progressbar.View.CircleLineProgressBar;
+import com.example.circle_line_progressbar.View.ShowTextActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,5 +45,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+	}
+
+	public void Open_Text(View view) {
+		startActivity(new Intent(this,ShowTextActivity.class));
 	}
 }
