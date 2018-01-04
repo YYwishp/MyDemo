@@ -21,5 +21,15 @@
         </activity>
         <activity android:name=".View.ShowTextActivity">
         </activity>
+        <activity android:name=".BreakLineActivity">
+        </activity>
+        <activity android:name=".MaskFilterActivity">
+        </activity>
+        <activity android:name=".BlurMaskFilterViewActivity">
+        </activity>
+        <activity android:name=".PathEffectViewActivity">
+        </activity>
+        <activity android:name=".EcgViewActivity">
+        </activity>
     </application>
 </manifest>

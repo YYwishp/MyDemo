@@ -50,4 +50,28 @@ public class MainActivity extends AppCompatActivity {
 	public void Open_Text(View view) {
 		startActivity(new Intent(this,ShowTextActivity.class));
 	}
+
+	public void line_break(View view) {
+
+		startActivity(new Intent(this,BreakLineActivity.class));
+
+
+
+	}
+
+	public void MaskFilterView(View view) {
+		startActivity(new Intent(this,MaskFilterActivity.class));
+	}
+
+	public void BlurMaskFilterView(View view) {
+		startActivity(new Intent(this,BlurMaskFilterViewActivity.class));
+	}
+
+	public void PathEffectView(View view) {
+		startActivity(new Intent(this,PathEffectViewActivity.class));
+	}
+
+	public void ECGView(View view) {
+		startActivity(new Intent(this,EcgViewActivity.class));
+	}
 }
