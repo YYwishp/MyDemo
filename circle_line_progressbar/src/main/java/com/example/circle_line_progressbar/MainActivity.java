@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.example.circle_line_progressbar.View.CircleLineProgressBar;
+import com.example.circle_line_progressbar.View.ShaderViewActivity;
 import com.example.circle_line_progressbar.View.ShowTextActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -73,5 +74,23 @@ public class MainActivity extends AppCompatActivity {
 
 	public void ECGView(View view) {
 		startActivity(new Intent(this,EcgViewActivity.class));
+	}
+
+	public void ShaderView(View view) {
+		startActivity(new Intent(this,ShaderViewActivity.class));
+
+	}
+
+	public void BrickView(View view) {
+		startActivity(new Intent(this,BrickViewActivity.class));
+	}
+
+	public void LinearShaderView(View view) {
+		startActivity(new Intent(this,LinearShaderViewActivity.class));
+
+	}
+
+	public void ReflectView(View view) {
+		startActivity(new Intent(this,ReflectViewActivity.class));
 	}
 }

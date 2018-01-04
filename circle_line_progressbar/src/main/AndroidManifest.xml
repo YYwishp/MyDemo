@@ -31,5 +31,13 @@
         </activity>
         <activity android:name=".EcgViewActivity">
         </activity>
+        <activity android:name=".View.ShaderViewActivity">
+        </activity>
+        <activity android:name=".BrickViewActivity">
+        </activity>
+        <activity android:name=".LinearShaderViewActivity">
+        </activity>
+        <activity android:name=".ReflectViewActivity">
+        </activity>
     </application>
 </manifest>
