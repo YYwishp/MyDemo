@@ -14,6 +14,9 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ *
+ * 图像混合
+ * 比较复杂
  * Created by gyx on 2017/12/28.
  */
 public class PorterDuffView extends View {
@@ -32,7 +35,7 @@ public class PorterDuffView extends View {
 		super(context, attrs);
 
 		// 实例化混合模式
-		porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.XOR);
+		porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.SCREEN);
 
 		// 初始化画笔
 		initPaint();
@@ -76,7 +79,7 @@ public class PorterDuffView extends View {
 	@Override
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
-		canvas.drawColor(Color.WHITE);
+		canvas.drawColor(Color.YELLOW);
 
         /*
          * 将绘制操作保存到新的图层（更官方的说法应该是离屏缓存）我们将在1/3中学习到Canvas的全部用法这里就先follow me
@@ -84,12 +87,16 @@ public class PorterDuffView extends View {
 		int sc = canvas.saveLayer(0, 0, screenW, screenH, null, Canvas.ALL_SAVE_FLAG);
 
 		// 先绘制一层带透明度的颜色
-		canvas.drawColor(0xcc1c093e);
+//		canvas.drawColor(0xaaff00ff);
+		Paint paint = new Paint();
 
-		// 设置混合模式
+		paint.setColor(0xffff00ff);
+		canvas.drawRect(x+150,y-100,x+bitmapSrc.getWidth()+50,y+bitmapSrc.getHeight()+100,paint);
+
+//		// 设置混合模式
 		mPaint.setXfermode(porterDuffXfermode);
-
-		// 再绘制src源图
+//
+//		// 再绘制src源图
 		canvas.drawBitmap(bitmapSrc, x, y, mPaint);
 
 		// 还原混合模式

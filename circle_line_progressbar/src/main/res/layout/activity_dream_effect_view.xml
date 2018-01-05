@@ -5,12 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.circle_line_progressbar.activity.ShaderViewActivity">
+    tools:context="com.example.circle_line_progressbar.activity.DreamEffectViewActivity">
 
 
 
-<com.example.circle_line_progressbar.View.ShaderView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" />
+
+
+    <com.example.circle_line_progressbar.View.DreamEffectView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </android.support.constraint.ConstraintLayout>

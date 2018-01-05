@@ -15,6 +15,10 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ *
+ * 图像混合模式，较为复杂
+ * mPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DST_IN));
+ *
  * Created by gyx on 2017/12/29.
  */
 public class EraserView extends View {

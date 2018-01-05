@@ -16,6 +16,7 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ * 图片着色
  * Created by gyx on 2018/1/4.
  */
 public class ShaderView extends View {

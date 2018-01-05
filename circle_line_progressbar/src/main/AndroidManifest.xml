@@ -9,35 +9,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ColorMatrixActivity">
+        <activity android:name=".activity.ColorMatrixActivity">
         </activity>
-        <activity android:name=".Open_DuffColorFilterActivity">
+        <activity android:name=".activity.Open_DuffColorFilterActivity">
         </activity>
-        <activity android:name=".View.ShowTextActivity">
+        <activity android:name=".activity.ShowTextActivity">
         </activity>
-        <activity android:name=".BreakLineActivity">
+        <activity android:name=".activity.BreakLineActivity">
         </activity>
-        <activity android:name=".MaskFilterActivity">
+        <activity android:name=".activity.MaskFilterActivity">
         </activity>
-        <activity android:name=".BlurMaskFilterViewActivity">
+        <activity android:name=".activity.BlurMaskFilterViewActivity">
         </activity>
-        <activity android:name=".PathEffectViewActivity">
+        <activity android:name=".activity.PathEffectViewActivity">
         </activity>
-        <activity android:name=".EcgViewActivity">
+        <activity android:name=".activity.EcgViewActivity">
         </activity>
-        <activity android:name=".View.ShaderViewActivity">
+        <activity android:name=".activity.ShaderViewActivity">
         </activity>
-        <activity android:name=".BrickViewActivity">
+        <activity android:name=".activity.BrickViewActivity">
         </activity>
-        <activity android:name=".LinearShaderViewActivity">
+        <activity android:name=".activity.LinearShaderViewActivity">
         </activity>
-        <activity android:name=".ReflectViewActivity">
+        <activity android:name=".activity.ReflectViewActivity">
+        </activity>
+        <activity android:name=".activity.DreamEffectViewActivity">
+        </activity>
+        <activity android:name=".activity.DreamEffectView_2Activity">
         </activity>
     </application>
 </manifest>

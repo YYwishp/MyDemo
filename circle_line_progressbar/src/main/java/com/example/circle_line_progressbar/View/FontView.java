@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 
 /**
+ * 绘制文字的
  * Created by gyx on 2017/12/29.
  */
 public class FontView extends View {

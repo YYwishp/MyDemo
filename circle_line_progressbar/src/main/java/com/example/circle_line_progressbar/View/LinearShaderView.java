@@ -19,6 +19,13 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ *
+ * 颜色渐变，三种模式，都是画笔的设置
+ * LinearGradient
+ * SweepGradient
+ * RadialGradient
+ *
+ *
  * Created by gyx on 2018/1/4.
  */
 public class LinearShaderView extends View {
@@ -44,7 +51,7 @@ public class LinearShaderView extends View {
 
 // 计算矩形左上右下坐标值
 		left = screenX - RECT_SIZE;
-		top = screenY - 600;
+		top = screenY - 500;
 		right = screenX + RECT_SIZE;
 		bottom = screenY + RECT_SIZE;
 		//实例化画笔
@@ -86,9 +93,9 @@ public class LinearShaderView extends View {
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
 		//绘制矩形
-//		canvas.drawRect(left, top, right, bottom, mPaint);
+		canvas.drawRect(left, top, right, bottom, mPaint);
 		mPaint.setTextSize(50);
-		canvas.drawText("dfdfsdfsdfdfsdfsdff", 100, 400, mPaint);
+		canvas.drawText("dfdfsdfsdfdfsdfsdff", 100, 140, mPaint);
 
 	}
 }

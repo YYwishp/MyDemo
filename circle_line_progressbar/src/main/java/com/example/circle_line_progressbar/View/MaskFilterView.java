@@ -9,6 +9,15 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
+ *
+ * 遮罩滤镜，
+ * BlurMaskFilter（4种模式）
+ * 1，BlurMaskFilter.Blur.SOLID：边缘
+	2，BlurMaskFilter.Blur.NORMAL:整个模糊了
+	3，BlurMaskFilter.Blur.INNER:INNER则会在图像内部产生模糊：
+ 	4，BlurMaskFilter.Blur.OUTER:OUTER会在Alpha边界外产生一层阴影且会将原本的图像变透明
+ *
+ *
  * Created by gyx on 2018/1/4.
  */
 public class MaskFilterView extends View {

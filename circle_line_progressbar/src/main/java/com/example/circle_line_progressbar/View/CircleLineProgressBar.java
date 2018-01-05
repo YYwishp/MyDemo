@@ -9,6 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
+ * 圆圈不停的放大
  * Created by gyx on 2017/12/27.
  */
 public class CircleLineProgressBar extends View implements Runnable{

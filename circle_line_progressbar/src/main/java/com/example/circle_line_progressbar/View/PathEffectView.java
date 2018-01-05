@@ -17,6 +17,22 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
+ *
+ *
+ * 路径效果
+ * //弯曲角度型 :CornerPathEffect
+ *
+ * //离散路径效果 :DiscretePathEffect
+ *
+ * 	//虚线的路径效果:DashPathEffect
+ *
+ * 	//增强的虚线路径效果:PathDashPathEffect
+ *
+ *  //组合路径效果:ComposePathEffect,SumPathEffect
+ *
+ *
+ *
+ *
  * Created by gyx on 2018/1/4.
  */
 public class PathEffectView extends View {

@@ -16,6 +16,10 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ * 颜色过滤 PorterDuffColorFilter
+ *
+ *
+ *
  * Created by gyx on 2017/12/28.
  */
 public class CustomView_3 extends View {

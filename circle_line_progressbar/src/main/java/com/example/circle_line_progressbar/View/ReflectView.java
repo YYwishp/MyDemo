@@ -17,6 +17,7 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ * 倒影图片
  * Created by gyx on 2018/1/4.
  */
 public class ReflectView extends View {

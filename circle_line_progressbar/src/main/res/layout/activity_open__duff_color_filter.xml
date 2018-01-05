@@ -6,19 +6,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.circle_line_progressbar.Open_DuffColorFilterActivity">
+    tools:context="com.example.circle_line_progressbar.activity.Open_DuffColorFilterActivity">
 
     <!--<com.example.circle_line_progressbar.View.CustomView_3-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content" />-->
 
     <com.example.circle_line_progressbar.View.PorterDuffView
-        android:visibility="gone"
+        android:visibility="visible"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
 
     <com.example.circle_line_progressbar.View.EraserView
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

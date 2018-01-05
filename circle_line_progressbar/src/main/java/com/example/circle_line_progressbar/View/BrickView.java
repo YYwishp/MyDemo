@@ -16,6 +16,7 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ * 着色器BitmapShader
  * Created by gyx on 2018/1/4.
  */
 public class BrickView extends View {
@@ -85,13 +86,13 @@ public class BrickView extends View {
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
 		//设置画笔背景颜色
-		canvas.drawColor(Color.DKGRAY);
+		//canvas.drawColor(Color.DKGRAY);
 		/**
 		 * 绘制圆和描边
 		 */
 
-		canvas.drawCircle(posX, posY, 100, mFillPaint);
-		canvas.drawCircle(posX, posY, 100, mStrokepaint);
+		canvas.drawCircle(posX, posY, 200, mFillPaint);
+		canvas.drawCircle(posX, posY, 200, mStrokepaint);
 
 	}
 }

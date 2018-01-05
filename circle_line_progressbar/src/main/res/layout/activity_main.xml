@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.circle_line_progressbar.MainActivity">
+    tools:context="com.example.circle_line_progressbar.activity.MainActivity">
 
     <com.example.circle_line_progressbar.View.CircleLineProgressBar
         android:id="@+id/custom_view"
@@ -79,7 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="BrickView"
-                android:text="着色器,BrickView" />
+                android:text="着色器,着色器BitmapShader" />
 
             <Button
                 android:layout_width="wrap_content"
@@ -92,6 +92,17 @@
                 android:layout_height="wrap_content"
                 android:onClick="ReflectView"
                 android:text="倒影" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="DreamEffectView"
+                android:text="图片LOMO化" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="DreamEffectView_2"
+                android:text="图片LOMO化,中心变亮" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

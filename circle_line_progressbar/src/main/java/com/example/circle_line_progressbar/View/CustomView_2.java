@@ -16,6 +16,14 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ *
+ *
+ * 色彩guolv
+ *
+ * mPaint.setColorFilter
+ *
+ * 色彩矩阵* ColorMatrix
+ *
  * Created by gyx on 2017/12/28.
  */
 public class CustomView_2 extends View {
@@ -100,14 +108,14 @@ public class CustomView_2 extends View {
 //
 //		// 设置画笔颜色为自定义颜色
 //		 mPaint.setColor(Color.argb(255, 255, 128, 103));
-//		// 生成色彩矩阵
-//		ColorMatrix colorMatrix = new ColorMatrix(new float[]{
-//				1.438F, -0.122F, -0.016F, 0, -0.03F,
-//				-0.062F, 1.378F, -0.016F, 0, 0.05F,
-//				-0.062F, -0.122F, 1.483F, 0, -0.02F,
-//				0, 0, 0, 1, 0,
-//		});
-//		mPaint.setColorFilter(new ColorMatrixColorFilter(colorMatrix));
+		// 生成色彩矩阵
+		ColorMatrix colorMatrix = new ColorMatrix(new float[]{
+				1.438F, -0.122F, -0.016F, 0, -0.03F,
+				-0.062F, 1.378F, -0.016F, 0, 0.05F,
+				-0.062F, -0.122F, 1.483F, 0, -0.02F,
+				0, 0, 0, 1, 0,
+		});
+		mPaint.setColorFilter(new ColorMatrixColorFilter(colorMatrix));
 
 
 
