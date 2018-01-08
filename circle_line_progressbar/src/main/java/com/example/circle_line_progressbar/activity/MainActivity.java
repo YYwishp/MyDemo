@@ -89,4 +89,8 @@ public class MainActivity extends AppCompatActivity {
 
 		startActivity(new Intent(this, MatrixViewActivity.class));
 	}
+	
+	public void MatrixImageView(View view) {
+		startActivity(new Intent(this, MatrixImageViewActivity.class));
+	}
 }

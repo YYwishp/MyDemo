@@ -10,7 +10,7 @@
     <com.example.circle_line_progressbar.View.CircleLineProgressBar
         android:id="@+id/custom_view"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -25,101 +25,109 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="epenCustomView"
-                android:text="CustomView_2" />
+                android:text="CustomView_2"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="Open_DuffColorFilter"
-                android:text="PorterDuffColorFilter" />
+                android:text="PorterDuffColorFilter"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="Open_Text"
-                android:text="Open_Text" />
+                android:text="Open_Text"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="line_break"
-                android:text="换行" />
+                android:text="换行"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="MaskFilterView"
-                android:text="模糊滤镜" />
+                android:text="模糊滤镜"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="BlurMaskFilterView"
-                android:text="模糊滤镜图片" />
+                android:text="模糊滤镜图片"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="PathEffectView"
-                android:text="路径绘制" />
+                android:text="路径绘制"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="ECGView"
-                android:text="心电图" />
+                android:text="心电图"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="ShaderView"
-                android:text="着色器" />
+                android:text="着色器"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="BrickView"
-                android:text="着色器,着色器BitmapShader" />
+                android:text="着色器,着色器BitmapShader"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="LinearShaderView"
-                android:text="着色器,LinearShader" />
+                android:text="着色器,LinearShader"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="ReflectView"
-                android:text="倒影" />
+                android:text="倒影"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="DreamEffectView"
-                android:text="图片LOMO化" />
+                android:text="图片LOMO化"/>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="DreamEffectView_2"
-                android:text="图片LOMO化,中心变亮" />
+                android:text="图片LOMO化,中心变亮"/>
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="DreamEffectView_3"
-                android:text="图片LOMO化,中心变亮——2" />
+                android:text="图片LOMO化,中心变亮——2"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="ShaderView_2"
-                android:text="BitmapShader图片拉伸" />
+                android:text="BitmapShader图片拉伸"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="MatrixView"
-                android:text="Matrix矩阵" />
+                android:text="Matrix矩阵"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="MatrixImageView"
+                android:text="Matrix图片手势操作"/>
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
