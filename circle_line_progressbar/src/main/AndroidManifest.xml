@@ -43,5 +43,11 @@
         </activity>
         <activity android:name=".activity.DreamEffectView_2Activity">
         </activity>
+        <activity android:name=".activity.DreamEffectView_3Activity">
+        </activity>
+        <activity android:name=".activity.ShaderView_2Activity">
+        </activity>
+        <activity android:name=".activity.MatrixViewActivity">
+        </activity>
     </application>
 </manifest>

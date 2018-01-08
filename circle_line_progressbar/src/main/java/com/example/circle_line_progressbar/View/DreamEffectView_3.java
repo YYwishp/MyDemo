@@ -6,6 +6,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.ColorMatrixColorFilter;
+import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
@@ -23,7 +24,7 @@ import com.example.circle_line_progressbar.R;
  *
  * Created by gyx on 2018/1/5.
  */
-public class DreamEffectView_2 extends View {
+public class DreamEffectView_3 extends View {
 
 	private Bitmap mBitmap;
 	private PorterDuffXfermode mXfermode;
@@ -31,8 +32,9 @@ public class DreamEffectView_2 extends View {
 	private int screenW, screenH;// 屏幕宽高
 	private Paint mBitmapPaint;
 	private Paint mShaderPaint;
+	private Bitmap darkCornerBitmap;
 
-	public DreamEffectView_2(Context context, @Nullable AttributeSet attrs) {
+	public DreamEffectView_3(Context context, @Nullable AttributeSet attrs) {
 
 		super(context, attrs);
 
@@ -80,10 +82,30 @@ public class DreamEffectView_2 extends View {
 
 		//实例化shader图形画笔
 		mShaderPaint = new Paint();
-		//设置径向渐变，渐变中心当然是图片的中心也是屏幕中心，渐变半径我们直接那图片的高度但是要稍微小一点
-		// 中心颜色为透明而边缘颜色为黑色
-		mShaderPaint.setShader(
-				new RadialGradient(screenW / 2, screenH / 2, mBitmap.getHeight() * 7 / 8, Color.TRANSPARENT, Color.BLACK, Shader.TileMode.CLAMP));
+		//根据我们源图的大小生成暗角Bitmap
+		darkCornerBitmap = Bitmap.createBitmap(mBitmap.getWidth(), mBitmap.getHeight(), Bitmap.Config.ARGB_8888);
+		//将暗角bitmap注入到canvas
+		Canvas canvas = new Canvas(darkCornerBitmap);
+		//计算径向渐变半径
+		float radiu = canvas.getHeight() * (2F / 3F);
+		//实例化径向渐变
+		RadialGradient radialGradient = new RadialGradient(canvas.getWidth() / 2F, canvas.getHeight() / 2F, radiu, new int[]{0, 0, 0xAA000000}, new float[]{0F, 0.7F, 1.0F}, Shader.TileMode.CLAMP);
+		//实例化一个矩阵
+		Matrix matrix = new Matrix();
+		//设置矩阵的缩放
+//		matrix.setScale(canvas.getWidth() / (radiu * 2F), 1.0F);
+		matrix.setScale(canvas.getWidth(), 1.0F);
+		//设置矩阵的预平移
+//		matrix.setTranslate(((radiu * 2F) - canvas.getWidth()) / 2F, 0);
+		matrix.setTranslate(0, 0);
+		//将该矩阵注入径向渐变
+		radialGradient.setLocalMatrix(matrix);
+		//设置画笔shader
+		mShaderPaint.setShader(radialGradient);
+		//绘制矩形
+		canvas.drawRect(0,0,canvas.getWidth(),canvas.getHeight(),mShaderPaint);
+
+
 
 	}
 
@@ -103,9 +125,8 @@ public class DreamEffectView_2 extends View {
 		mBitmapPaint.setXfermode(null);
 		//还原画布
 		canvas.restoreToCount(saveLayer);
-		//绘制一个和图片大小一样的矩形
-		canvas.drawRect(x, y, x + mBitmap.getWidth(), y + mBitmap.getHeight(), mShaderPaint);
-
+		//绘制我们画好的径向渐变图
+		canvas.drawBitmap(darkCornerBitmap, x, y, null);
 
 
 

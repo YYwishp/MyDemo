@@ -17,6 +17,9 @@ import android.view.WindowManager;
 import com.example.circle_line_progressbar.R;
 
 /**
+ *
+ * 图片颜色混合，图片LOMO化
+ *
  * Created by gyx on 2018/1/5.
  */
 public class DreamEffectView extends View {
@@ -69,8 +72,8 @@ public class DreamEffectView extends View {
 		//新建图层
 		int sc = canvas.saveLayer(x, y, x + mBitmap.getWidth(), y + mBitmap.getHeight(), null, Canvas.ALL_SAVE_FLAG);
 		//绘制混合颜色
-//		canvas.drawColor(0xcc1c093e);
-		canvas.drawColor(0xff00ff00);
+		canvas.drawColor(0xcc1c093e);
+//		canvas.drawColor(0xff00ff00);
 		//设置混合模式
 		mBitmapPaint.setXfermode(mXfermode);
 		//绘制位图

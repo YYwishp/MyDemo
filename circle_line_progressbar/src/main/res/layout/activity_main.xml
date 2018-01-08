@@ -103,6 +103,23 @@
                 android:layout_height="wrap_content"
                 android:onClick="DreamEffectView_2"
                 android:text="图片LOMO化,中心变亮" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="DreamEffectView_3"
+                android:text="图片LOMO化,中心变亮——2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ShaderView_2"
+                android:text="BitmapShader图片拉伸" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="MatrixView"
+                android:text="Matrix矩阵" />
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

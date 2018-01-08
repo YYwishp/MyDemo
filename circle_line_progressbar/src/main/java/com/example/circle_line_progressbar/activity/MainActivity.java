@@ -75,4 +75,18 @@ public class MainActivity extends AppCompatActivity {
 	public void DreamEffectView_2(View view) {
 		startActivity(new Intent(this, DreamEffectView_2Activity.class));
 	}
+
+	public void DreamEffectView_3(View view) {
+		startActivity(new Intent(this, DreamEffectView_3Activity.class));
+	}
+
+	public void ShaderView_2(View view) {
+		startActivity(new Intent(this, ShaderView_2Activity.class));
+
+	}
+
+	public void MatrixView(View view) {
+
+		startActivity(new Intent(this, MatrixViewActivity.class));
+	}
 }
