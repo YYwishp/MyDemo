@@ -11,8 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".activity.MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".activity.ColorMatrixActivity">
@@ -50,6 +50,16 @@
         <activity android:name=".activity.MatrixViewActivity">
         </activity>
         <activity android:name=".activity.MatrixImageViewActivity">
+        </activity>
+        <activity android:name=".activity.BitmapMeshViewActivity">
+        </activity>
+        <activity android:name=".activity.CanvasViewActivity">
+        </activity>
+        <activity android:name=".activity.PathViewActivity">
+        </activity>
+        <activity android:name=".activity.BezierViewActivity">
+        </activity>
+        <activity android:name=".activity.WaveViewActivity">
         </activity>
     </application>
 </manifest>

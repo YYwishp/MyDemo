@@ -128,6 +128,37 @@
                 android:layout_height="wrap_content"
                 android:onClick="MatrixImageView"
                 android:text="Matrix图片手势操作"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BitmapMeshView"
+                android:text="BitmapMeshView图片"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="CanvasView"
+                android:text="画布canvas使用"/>
+
+ <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="PathView"
+                android:text="Path使用"/>
+
+<Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="BezierView"
+                android:text="贝塞尔使用"/>
+<Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="WaveView"
+                android:text="水波纹"/>
+
+
+
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>

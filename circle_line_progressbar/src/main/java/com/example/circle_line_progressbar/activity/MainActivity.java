@@ -93,4 +93,67 @@ public class MainActivity extends AppCompatActivity {
 	public void MatrixImageView(View view) {
 		startActivity(new Intent(this, MatrixImageViewActivity.class));
 	}
+
+	public void BitmapMeshView(View view) {
+		startActivity(new Intent(this, BitmapMeshViewActivity.class));
+	}
+
+	public void CanvasView(View view) {
+
+
+		startActivity(new Intent(this, CanvasViewActivity.class));
+
+	}
+
+	public void PathView(View view) {
+
+		startActivity(new Intent(this, PathViewActivity.class));
+	}
+
+	public void BezierView(View view) {
+		startActivity(new Intent(this, BezierViewActivity.class));
+	}
+
+	public void WaveView(View view) {
+
+		startActivity(new Intent(this, WaveViewActivity.class));
+
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
