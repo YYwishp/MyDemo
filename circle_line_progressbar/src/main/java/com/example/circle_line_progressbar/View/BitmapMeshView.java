@@ -11,6 +11,8 @@ import android.view.View;
 import com.example.circle_line_progressbar.R;
 
 /**
+ * BitmapMeshView：API
+ * 可以做很多功能，但是需要计算很多点，操作点
  * Created by gyx on 2018/1/9.
  */
 public class BitmapMeshView extends View {

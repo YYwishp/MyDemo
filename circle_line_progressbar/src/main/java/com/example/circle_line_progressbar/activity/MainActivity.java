@@ -119,6 +119,19 @@ public class MainActivity extends AppCompatActivity {
 		startActivity(new Intent(this, WaveViewActivity.class));
 
 	}
+
+	public void PathView_2(View view) {
+
+
+		startActivity(new Intent(this, PathView_2Activity.class));
+	}
+
+	public void LayerView(View view) {
+		startActivity(new Intent(this, LayerViewActivity.class));
+
+
+
+	}
 }
 
 

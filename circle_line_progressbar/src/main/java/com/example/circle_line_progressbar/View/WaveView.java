@@ -24,7 +24,7 @@ public class WaveView extends View {
 		super(context, attrs);
 		//实例化画笔并设置参数
 		mPaint = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.DITHER_FLAG);
-		mPaint.setStyle(Paint.Style.FILL);
+		mPaint.setStyle(Paint.Style.STROKE);
 		mPaint.setColor(0xffa2d6ae);
 		//实例化路径
 		mPath = new Path();
