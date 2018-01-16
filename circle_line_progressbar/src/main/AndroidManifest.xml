@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -64,6 +64,8 @@
         <activity android:name=".activity.PathView_2Activity">
         </activity>
         <activity android:name=".activity.LayerViewActivity">
+        </activity>
+        <activity android:name=".activity.LayerView_2Activity">
         </activity>
     </application>
 </manifest>

@@ -1,4 +1,4 @@
-package com.example.circle_line_progressbar.activity;
+package com.example.circle_line_progressbar;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,32 @@ import android.view.View;
 
 import com.example.circle_line_progressbar.R;
 import com.example.circle_line_progressbar.View.CircleLineProgressBar;
+import com.example.circle_line_progressbar.activity.BezierViewActivity;
+import com.example.circle_line_progressbar.activity.BitmapMeshViewActivity;
+import com.example.circle_line_progressbar.activity.BlurMaskFilterViewActivity;
+import com.example.circle_line_progressbar.activity.BreakLineActivity;
+import com.example.circle_line_progressbar.activity.BrickViewActivity;
+import com.example.circle_line_progressbar.activity.CanvasViewActivity;
+import com.example.circle_line_progressbar.activity.ColorMatrixActivity;
+import com.example.circle_line_progressbar.activity.DreamEffectViewActivity;
+import com.example.circle_line_progressbar.activity.DreamEffectView_2Activity;
+import com.example.circle_line_progressbar.activity.DreamEffectView_3Activity;
+import com.example.circle_line_progressbar.activity.EcgViewActivity;
+import com.example.circle_line_progressbar.activity.LayerViewActivity;
+import com.example.circle_line_progressbar.activity.LayerView_2Activity;
+import com.example.circle_line_progressbar.activity.LinearShaderViewActivity;
+import com.example.circle_line_progressbar.activity.MaskFilterActivity;
+import com.example.circle_line_progressbar.activity.MatrixImageViewActivity;
+import com.example.circle_line_progressbar.activity.MatrixViewActivity;
+import com.example.circle_line_progressbar.activity.Open_DuffColorFilterActivity;
+import com.example.circle_line_progressbar.activity.PathEffectViewActivity;
+import com.example.circle_line_progressbar.activity.PathViewActivity;
+import com.example.circle_line_progressbar.activity.PathView_2Activity;
+import com.example.circle_line_progressbar.activity.ReflectViewActivity;
+import com.example.circle_line_progressbar.activity.ShaderViewActivity;
+import com.example.circle_line_progressbar.activity.ShaderView_2Activity;
+import com.example.circle_line_progressbar.activity.ShowTextActivity;
+import com.example.circle_line_progressbar.activity.WaveViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 	private CircleLineProgressBar customView;
@@ -130,6 +156,14 @@ public class MainActivity extends AppCompatActivity {
 		startActivity(new Intent(this, LayerViewActivity.class));
 
 
+
+	}
+
+	public void LayerView_2(View view) {
+
+
+
+		startActivity(new Intent(this, LayerView_2Activity.class));
 
 	}
 }

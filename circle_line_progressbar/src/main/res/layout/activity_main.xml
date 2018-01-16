@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.circle_line_progressbar.activity.MainActivity">
+    tools:context="com.example.circle_line_progressbar.MainActivity">
 
     <com.example.circle_line_progressbar.View.CircleLineProgressBar
         android:id="@+id/custom_view"
@@ -170,6 +170,11 @@
                 android:onClick="LayerView"
                 android:text="图层" />
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="LayerView_2"
+                android:text="canvas变换" />
 
 
 
