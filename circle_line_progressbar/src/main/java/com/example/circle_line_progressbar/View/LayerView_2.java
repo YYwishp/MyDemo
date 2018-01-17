@@ -63,6 +63,7 @@ public class LayerView_2 extends View {
 //		canvas.setMatrix(matrix);
 
 //		canvas.drawBitmap(mBitmap, 0, 0, null);
+
 		mPaint.setColor(Color.BLUE);
 		canvas.drawRect(0,0,100,100,mPaint);
 		canvas.skew(0f,1f);
@@ -72,6 +73,12 @@ public class LayerView_2 extends View {
 		mPaint.setColor(Color.GREEN);
 		canvas.drawRect(0,0,100,100,mPaint);
 		canvas.restore();
+	}
+
+	@Override
+	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+		super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+
 	}
 }
 

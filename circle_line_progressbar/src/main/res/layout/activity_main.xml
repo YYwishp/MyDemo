@@ -176,6 +176,11 @@
                 android:onClick="LayerView_2"
                 android:text="canvas变换" />
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ImgView"
+                android:text="onMeasure" />
 
 
 

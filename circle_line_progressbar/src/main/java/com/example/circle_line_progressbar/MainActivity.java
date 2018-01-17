@@ -18,6 +18,7 @@ import com.example.circle_line_progressbar.activity.DreamEffectViewActivity;
 import com.example.circle_line_progressbar.activity.DreamEffectView_2Activity;
 import com.example.circle_line_progressbar.activity.DreamEffectView_3Activity;
 import com.example.circle_line_progressbar.activity.EcgViewActivity;
+import com.example.circle_line_progressbar.activity.ImgViewActivity;
 import com.example.circle_line_progressbar.activity.LayerViewActivity;
 import com.example.circle_line_progressbar.activity.LayerView_2Activity;
 import com.example.circle_line_progressbar.activity.LinearShaderViewActivity;
@@ -164,6 +165,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 		startActivity(new Intent(this, LayerView_2Activity.class));
+
+	}
+
+	public void ImgView(View view) {
+
+		startActivity(new Intent(this, ImgViewActivity.class));
+
+
 
 	}
 }
