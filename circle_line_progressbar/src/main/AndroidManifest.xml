@@ -69,5 +69,7 @@
         </activity>
         <activity android:name=".activity.ImgViewActivity">
         </activity>
+        <activity android:name=".activity.IconViewActivity">
+        </activity>
     </application>
 </manifest>
