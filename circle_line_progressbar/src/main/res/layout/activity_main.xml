@@ -164,6 +164,7 @@
                 android:layout_height="wrap_content"
                 android:onClick="PathView_2"
                 android:text="在path路径上画文字" />
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -181,14 +182,12 @@
                 android:layout_height="wrap_content"
                 android:onClick="ImgView"
                 android:text="onMeasure" />
-<Button
+
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="IconView"
                 android:text="ViewGroup和View测量" />
-
-
-
         </LinearLayout>
     </ScrollView>
 </RelativeLayout>
