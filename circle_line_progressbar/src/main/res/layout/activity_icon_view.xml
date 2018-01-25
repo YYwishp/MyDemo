@@ -18,7 +18,7 @@
         android:layout_marginTop="30dp"
         android:padding="15dp"
         android:text="macbookpro"
-        android:layout_width="100dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content" />
 
 </com.example.circle_line_progressbar.View.CustomLayout>

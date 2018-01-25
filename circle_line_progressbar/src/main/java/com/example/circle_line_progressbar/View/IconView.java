@@ -52,7 +52,7 @@ public class IconView extends View {
 		int width = wm.getDefaultDisplay().getWidth();
 		int height = wm.getDefaultDisplay().getHeight();
 		//计算文本尺寸
-		mTextSize = width / 10F;
+		mTextSize = width / 15F;
 	}
 
 	/**
