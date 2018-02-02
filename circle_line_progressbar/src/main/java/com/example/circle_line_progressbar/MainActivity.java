@@ -2,7 +2,9 @@ package com.example.circle_line_progressbar;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
 import com.example.circle_line_progressbar.R;
@@ -34,7 +36,12 @@ import com.example.circle_line_progressbar.activity.ReflectViewActivity;
 import com.example.circle_line_progressbar.activity.ShaderViewActivity;
 import com.example.circle_line_progressbar.activity.ShaderView_2Activity;
 import com.example.circle_line_progressbar.activity.ShowTextActivity;
+import com.example.circle_line_progressbar.activity.SquareActivity;
 import com.example.circle_line_progressbar.activity.WaveViewActivity;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 	private CircleLineProgressBar customView;
@@ -180,6 +187,13 @@ public class MainActivity extends AppCompatActivity {
 	public void IconView(View view) {
 
 		startActivity(new Intent(this, IconViewActivity.class));
+	}
+
+	public void Square(View view) {
+
+		startActivity(new Intent(this, SquareActivity.class));
+
+
 	}
 }
 

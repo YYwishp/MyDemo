@@ -71,5 +71,7 @@
         </activity>
         <activity android:name=".activity.IconViewActivity">
         </activity>
+        <activity android:name=".activity.SquareActivity">
+        </activity>
     </application>
 </manifest>

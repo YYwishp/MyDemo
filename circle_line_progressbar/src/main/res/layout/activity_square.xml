@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.circle_line_progressbar.activity.SquareActivity">
+
+    <com.example.circle_line_progressbar.View.SquareLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="#125793"
+            android:text="tomorrow"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="30dp"
+            android:background="#495287"
+            android:text="AigeStudio" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="15dp"
+            android:background="#976234"
+            android:scaleType="centerCrop"
+            android:src="@drawable/abc" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#594342"
+            android:text="AigeStudio" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#961315"
+            android:text="AigeStudio" />
+    </com.example.circle_line_progressbar.View.SquareLayout>
+
+
+</LinearLayout>
