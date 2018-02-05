@@ -2,7 +2,8 @@
 <LinearLayout
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:gyx="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,6 +12,7 @@
     <com.example.circle_line_progressbar.View.SquareLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        gyx:orientation="Vertical"
         android:padding="20dp">
         <Button
             android:layout_width="50dp"
@@ -22,7 +24,7 @@
             android:typeface="serif" />
 
         <Button
-            android:layout_width="50dp"
+            android:layout_width="80dp"
             android:layout_height="50dp"
             android:layout_marginBottom="5dp"
             android:layout_marginLeft="10dp"
@@ -32,7 +34,7 @@
             android:text="AigeStudio" />
 
         <ImageView
-            android:layout_width="80dp"
+            android:layout_width="1dp"
             android:layout_height="80dp"
             android:layout_marginBottom="50dp"
             android:layout_marginLeft="5dp"
