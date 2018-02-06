@@ -79,5 +79,7 @@
         </activity>
         <activity android:name=".activity.Complex2Activity">
         </activity>
+        <activity android:name=".activity.CustomCheckBoxActivity">
+        </activity>
     </application>
 </manifest>

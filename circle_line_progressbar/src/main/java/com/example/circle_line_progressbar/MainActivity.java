@@ -18,6 +18,7 @@ import com.example.circle_line_progressbar.activity.CanvasViewActivity;
 import com.example.circle_line_progressbar.activity.ColorMatrixActivity;
 import com.example.circle_line_progressbar.activity.Complex2Activity;
 import com.example.circle_line_progressbar.activity.ComplexActivity;
+import com.example.circle_line_progressbar.activity.CustomCheckBoxActivity;
 import com.example.circle_line_progressbar.activity.DreamEffectViewActivity;
 import com.example.circle_line_progressbar.activity.DreamEffectView_2Activity;
 import com.example.circle_line_progressbar.activity.DreamEffectView_3Activity;
@@ -213,6 +214,13 @@ public class MainActivity extends AppCompatActivity {
 	public void ComplexView2(View view) {
 
 		startActivity(new Intent(this,Complex2Activity.class));
+
+
+	}
+
+	public void CustomCheckBox(View view) {
+
+		startActivity(new Intent(this,CustomCheckBoxActivity.class));
 
 
 	}
