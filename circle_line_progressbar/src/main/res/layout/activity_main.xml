@@ -196,6 +196,29 @@
                 android:text="Square测量" />
 
 
+ <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="LifeCycleView"
+                android:text="View生命周期" />
+
+<Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ComplexView"
+                android:text="组合控件" />
+
+
+
+
+<Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ComplexView2"
+                android:text="组合控件-2" />
+
+
+
 
 
         </LinearLayout>

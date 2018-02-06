@@ -73,5 +73,11 @@
         </activity>
         <activity android:name=".activity.SquareActivity">
         </activity>
+        <activity android:name=".activity.LifeCycleViewActivity">
+        </activity>
+        <activity android:name=".activity.ComplexActivity">
+        </activity>
+        <activity android:name=".activity.Complex2Activity">
+        </activity>
     </application>
 </manifest>

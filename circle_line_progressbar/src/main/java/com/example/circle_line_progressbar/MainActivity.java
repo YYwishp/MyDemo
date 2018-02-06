@@ -16,6 +16,8 @@ import com.example.circle_line_progressbar.activity.BreakLineActivity;
 import com.example.circle_line_progressbar.activity.BrickViewActivity;
 import com.example.circle_line_progressbar.activity.CanvasViewActivity;
 import com.example.circle_line_progressbar.activity.ColorMatrixActivity;
+import com.example.circle_line_progressbar.activity.Complex2Activity;
+import com.example.circle_line_progressbar.activity.ComplexActivity;
 import com.example.circle_line_progressbar.activity.DreamEffectViewActivity;
 import com.example.circle_line_progressbar.activity.DreamEffectView_2Activity;
 import com.example.circle_line_progressbar.activity.DreamEffectView_3Activity;
@@ -24,6 +26,7 @@ import com.example.circle_line_progressbar.activity.IconViewActivity;
 import com.example.circle_line_progressbar.activity.ImgViewActivity;
 import com.example.circle_line_progressbar.activity.LayerViewActivity;
 import com.example.circle_line_progressbar.activity.LayerView_2Activity;
+import com.example.circle_line_progressbar.activity.LifeCycleViewActivity;
 import com.example.circle_line_progressbar.activity.LinearShaderViewActivity;
 import com.example.circle_line_progressbar.activity.MaskFilterActivity;
 import com.example.circle_line_progressbar.activity.MatrixImageViewActivity;
@@ -192,6 +195,24 @@ public class MainActivity extends AppCompatActivity {
 	public void Square(View view) {
 
 		startActivity(new Intent(this, SquareActivity.class));
+
+
+	}
+
+	public void LifeCycleView(View view) {
+		startActivity(new Intent(this,LifeCycleViewActivity.class));
+
+	}
+
+	public void ComplexView(View view) {
+
+		startActivity(new Intent(this,ComplexActivity.class));
+
+
+	}
+	public void ComplexView2(View view) {
+
+		startActivity(new Intent(this,Complex2Activity.class));
 
 
 	}
