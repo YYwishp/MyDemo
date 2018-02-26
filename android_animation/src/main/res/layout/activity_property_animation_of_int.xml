@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.gyx.android_animation.activity.PropertyAnimationActivity">
-
-
-
+    android:orientation="vertical"
+    tools:context="com.gyx.android_animation.activity.PropertyAnimationOfIntActivity">
 
     <Button
-        android:text="改变背景色"
-        android:onClick="changeBackground"
+        android:id="@+id/button"
+        android:text="动画开始"
+        android:onClick="startAnimation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+
     <TextView
         android:id="@+id/text"
-        android:text="HelloWorld"
+        android:background="#09f"
         android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-      />
+        android:text="啦啦啦啦"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
 
 
 </LinearLayout>

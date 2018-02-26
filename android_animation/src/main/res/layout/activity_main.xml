@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.gyx.android_animation.MainActivity">
+    tools:context="com.gyx.android_animation.activity.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

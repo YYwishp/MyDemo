@@ -1,24 +1,108 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.gyx.android_animation.LauncherActivity">
 
-
-
     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="viewAnimation"
-        android:text="补间动画"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:text="补间动画" />
+
     <Button
-        android:onClick="ValueAnimator"
-        android:text="属性动画"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:onClick="ValueAnimatorofArgb"
+        android:text="属性动画" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ValueAnimatorOfInt"
+        android:text="属性动画-2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ValueAnimatorWithInterpolator"
+        android:text="属性动画-ValueAnimator插值器"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ValueAnimatorWithMyInterpolator"
+        android:text="属性动画-ValueAnimator自定义插值器"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ValueAnimatorWithOfObject"
+        android:text="属性动画-ValueAnimator-ofObject"
+        android:textAllCaps="false"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ValueAnimatorWithMyOfObject"
+        android:text="属性动画-ValueAnimator自定义ofObject"
+        android:textAllCaps="false"
+        />
+
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ObjectAnimatorNormalUsage"
+        android:text="属性动画-ObjectAnimator的一般用法"
+        android:textAllCaps="false"
+        />
+
+
+
+
+
 
 </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

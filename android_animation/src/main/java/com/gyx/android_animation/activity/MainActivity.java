@@ -1,4 +1,4 @@
-package com.gyx.android_animation;
+package com.gyx.android_animation.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,6 +14,8 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.QuickContactBadge;
 import android.widget.TextView;
+
+import com.gyx.android_animation.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 

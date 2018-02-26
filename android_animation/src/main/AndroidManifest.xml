@@ -15,9 +15,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PropertyAnimationActivity">
+        <activity android:name=".activity.PropertyAnimationActivity">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
+        </activity>
+        <activity android:name=".activity.PropertyAnimationOfIntActivity">
+        </activity>
+        <activity android:name=".activity.PropertyAnimationWithInterpolatorActivity">
+        </activity>
+        <activity android:name=".activity.PropertyAnimationWithMyInterpolatorActivity">
+        </activity>
+        <activity android:name=".activity.ValueAnimatorWithOfObjectActivity">
+        </activity>
+        <activity android:name=".activity.ValueAnimatorWithMyOfObjectActivity">
         </activity>
     </application>
 </manifest>

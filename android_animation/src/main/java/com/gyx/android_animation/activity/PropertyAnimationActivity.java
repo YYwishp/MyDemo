@@ -1,4 +1,4 @@
-package com.gyx.android_animation;
+package com.gyx.android_animation.activity;
 
 import android.animation.ValueAnimator;
 import android.os.Build;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
+
+import com.gyx.android_animation.R;
 
 public class PropertyAnimationActivity extends AppCompatActivity {
 
