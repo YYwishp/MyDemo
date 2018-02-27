@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startAnimation"
+        android:text="开始动画" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:onClick="cancelAnimation"
+        android:text="取消动画" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:background="#09f"
+        android:gravity="center"
+        android:text="啦啦啦啦"
+        android:visibility="visible"/>
+    <com.gyx.android_animation.view.MySecondPointView
+        android:id="@+id/my_secondpoint"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content" />
+</RelativeLayout>

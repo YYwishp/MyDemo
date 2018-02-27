@@ -51,17 +51,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="ValueAnimatorWithMyOfObject"
-        android:text="属性动画-ValueAnimator自定义ofObject"
+        android:text="属性动画-ValueAnimator自定义ofObject自定义属性用法"
         android:textAllCaps="false"
         />
 
-     <Button
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="ObjectAnimatorNormalUsage"
         android:text="属性动画-ObjectAnimator的一般用法"
         android:textAllCaps="false"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ObjectAnimatorCustomerUsage"
+        android:text="属性动画-ObjectAnimator的自定义属性用法"
+        android:textAllCaps="false"
+        />
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="PropertyValuesHolder"
+        android:text="属性动画-ObjectAnimator的PropertyValuesHolder用法"
+        android:textAllCaps="false"
+        />
+ <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="keyFrameUsage"
+        android:text="属性动画-ObjectAnimator的keyFrame用法"
+        android:textAllCaps="false"
+        />
+
+
+
 
 
 

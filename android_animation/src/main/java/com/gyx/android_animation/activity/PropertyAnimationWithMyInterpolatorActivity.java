@@ -1,5 +1,6 @@
 package com.gyx.android_animation.activity;
 
+import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -24,7 +25,25 @@ public class PropertyAnimationWithMyInterpolatorActivity extends AppCompatActivi
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_property_animation_with_my_interpolator);
 		text = (TextView) findViewById(R.id.text);
+		text.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				ValueAnimator valueAnimator = PropertyAnimationWithMyInterpolatorActivity.this.valueAnimator.ofInt(0xff00ff00, 0xff9000ff, 0xffffff00);
+				valueAnimator.setInterpolator(new BounceInterpolator());
+				valueAnimator.setDuration(3000);
+				valueAnimator.setEvaluator(new ArgbEvaluator());
 
+				valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+					@Override
+					public void onAnimationUpdate(ValueAnimator animation) {
+						int animatedValue = (int) animation.getAnimatedValue();
+						text.setBackgroundColor(animatedValue);
+
+					}
+				});
+				valueAnimator.start();
+			}
+		});
 	}
 
 	public void startAnimation(View view) {
@@ -48,3 +67,27 @@ public class PropertyAnimationWithMyInterpolatorActivity extends AppCompatActivi
 		valueAnimator.cancel();
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

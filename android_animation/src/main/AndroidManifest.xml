@@ -29,5 +29,13 @@
         </activity>
         <activity android:name=".activity.ValueAnimatorWithMyOfObjectActivity">
         </activity>
+        <activity android:name=".activity.ObjectAnimatorNormalUsageActivity">
+        </activity>
+        <activity android:name=".activity.ObjectAnimatorCustomerUsageActivity">
+        </activity>
+        <activity android:name=".activity.PropertyValuesHolderActivity">
+        </activity>
+        <activity android:name=".activity.keyFrameUsageActivity">
+        </activity>
     </application>
 </manifest>

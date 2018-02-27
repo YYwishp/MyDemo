@@ -6,12 +6,16 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.gyx.android_animation.activity.MainActivity;
+import com.gyx.android_animation.activity.ObjectAnimatorCustomerUsageActivity;
+import com.gyx.android_animation.activity.ObjectAnimatorNormalUsageActivity;
 import com.gyx.android_animation.activity.PropertyAnimationActivity;
 import com.gyx.android_animation.activity.PropertyAnimationOfIntActivity;
 import com.gyx.android_animation.activity.PropertyAnimationWithInterpolatorActivity;
 import com.gyx.android_animation.activity.PropertyAnimationWithMyInterpolatorActivity;
+import com.gyx.android_animation.activity.PropertyValuesHolderActivity;
 import com.gyx.android_animation.activity.ValueAnimatorWithMyOfObjectActivity;
 import com.gyx.android_animation.activity.ValueAnimatorWithOfObjectActivity;
+import com.gyx.android_animation.activity.keyFrameUsageActivity;
 
 public class LauncherActivity extends AppCompatActivity {
 	@Override
@@ -66,6 +70,25 @@ public class LauncherActivity extends AppCompatActivity {
 	}
 
 	public void ObjectAnimatorNormalUsage(View view) {
+		startActivity(new Intent(this, ObjectAnimatorNormalUsageActivity.class));
+	}
+
+	public void ObjectAnimatorCustomerUsage(View view) {
+		startActivity(new Intent(this, ObjectAnimatorCustomerUsageActivity.class));
+	}
+
+	public void PropertyValuesHolder(View view) {
+		startActivity(new Intent(this, PropertyValuesHolderActivity.class));
+
+
+
+	}
+
+	public void keyFrameUsage(View view) {
+
+		startActivity(new Intent(this, keyFrameUsageActivity.class));
+
+
 	}
 }
 
