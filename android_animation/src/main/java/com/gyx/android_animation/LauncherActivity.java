@@ -15,6 +15,8 @@ import com.gyx.android_animation.activity.PropertyAnimationWithMyInterpolatorAct
 import com.gyx.android_animation.activity.PropertyValuesHolderActivity;
 import com.gyx.android_animation.activity.ValueAnimatorWithMyOfObjectActivity;
 import com.gyx.android_animation.activity.ValueAnimatorWithOfObjectActivity;
+import com.gyx.android_animation.activity.keyFrameUsage2Activity;
+import com.gyx.android_animation.activity.keyFrameUsage3Activity;
 import com.gyx.android_animation.activity.keyFrameUsageActivity;
 
 public class LauncherActivity extends AppCompatActivity {
@@ -88,6 +90,15 @@ public class LauncherActivity extends AppCompatActivity {
 
 		startActivity(new Intent(this, keyFrameUsageActivity.class));
 
+
+	}
+
+	public void keyFrameUsage2(View view) {
+		startActivity(new Intent(this, keyFrameUsage2Activity.class));
+	}
+
+	public void keyFrameUsage3(View view) {
+		startActivity(new Intent(this, keyFrameUsage3Activity.class));
 
 	}
 }

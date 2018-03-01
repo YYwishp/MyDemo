@@ -1,1 +1,1 @@
-include ':app', ':myloadingbar', ':share_animation', ':ripple_demo', ':circular_reveal_demo', ':dialogedittext_input', ':circle_line_progressbar', ':android8installpermission', ':android_animation'
+include ':app', ':myloadingbar', ':share_animation', ':ripple_demo', ':circular_reveal_demo', ':dialogedittext_input', ':circle_line_progressbar', ':android8installpermission', ':android_animation', ':fingerprintdemo', ':myjnitest'

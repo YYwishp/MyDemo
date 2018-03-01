@@ -37,5 +37,9 @@
         </activity>
         <activity android:name=".activity.keyFrameUsageActivity">
         </activity>
+        <activity android:name=".activity.keyFrameUsage2Activity">
+        </activity>
+        <activity android:name=".activity.keyFrameUsage3Activity">
+        </activity>
     </application>
 </manifest>
