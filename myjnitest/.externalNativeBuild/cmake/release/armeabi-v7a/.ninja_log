@@ -1,0 +1,3 @@
+# ninja log v5
+1	249	0	CMakeFiles/JNI_ANDROID_TEST.dir/src/main/jni/jnitest.c.o	a327088936e2fd5d
+249	297	0	../../../../build/intermediates/cmake/release/obj/armeabi-v7a/libJNI_ANDROID_TEST.so	77399fcb0db3c287

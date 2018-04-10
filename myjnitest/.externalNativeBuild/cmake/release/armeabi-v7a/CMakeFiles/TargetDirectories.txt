@@ -1,0 +1,3 @@
+/Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/.externalNativeBuild/cmake/release/armeabi-v7a/CMakeFiles/JNI_ANDROID_TEST.dir

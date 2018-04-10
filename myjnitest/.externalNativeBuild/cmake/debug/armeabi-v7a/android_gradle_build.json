@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/gyx/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/.externalNativeBuild/cmake/debug/armeabi-v7a --target clean"
+	],
+	"libraries" : 
+	{
+		"JNI_ANDROID_TEST-Debug-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "JNI_ANDROID_TEST",
+			"buildCommand" : "/Users/gyx/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/.externalNativeBuild/cmake/debug/armeabi-v7a --target JNI_ANDROID_TEST",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi --gcc-toolchain=/Users/gyx/Library/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/gyx/Library/Android/sdk/ndk-bundle/sysroot -DJNI_ANDROID_TEST_EXPORTS  -isystem /Users/gyx/Library/Android/sdk/ndk-bundle/sysroot/usr/include/arm-linux-androideabi -D__ANDROID_API__=16 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv7-a -mfloat-abi=softfp -mfpu=vfpv3-d16 -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "/Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/src/main/jni/jnitest.c",
+					"workingDirectory" : "/Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/.externalNativeBuild/cmake/debug/armeabi-v7a"
+				}
+			],
+			"output" : "/Users/gyx/AndroidStudioProjects/MY/MyDemo/myjnitest/build/intermediates/cmake/debug/obj/armeabi-v7a/libJNI_ANDROID_TEST.so",
+			"toolchain" : "338168299019649632"
+		}
+	},
+	"toolchains" : 
+	{
+		"338168299019649632" : 
+		{
+			"cCompilerExecutable" : "/Users/gyx/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/gyx/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
